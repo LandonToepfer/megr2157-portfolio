@@ -1,8 +1,8 @@
-# Landon Toepfer - MEGR 2157 Portfolio
+# Landon Toepfer - MEGR 2156 Portfolio
 
-![MEGR 2156-7 Title](MEGR2156title.png)
 
-This site is the working record of your engineering design decisions across MEGR 2157. Every entry follows the Analyze, Decide, Communicate structure in accordance with standard engineering documentation practice, so a reader can see not just what you built, but how and why you built it that way. Engineering documentation is a skill developed through deliberate practice. Each assignment is an opportunity to improve the precision, clarity, and professional quality of how you record and defend your work. As you progress through the semester your engineering capability will grow alongside your documentation — this portfolio is the record of that journey.
+
+This site is the working record of my engineering design decisions across MEGR 2156. Every entry follows the Analyze, Decide, Communicate structure in accordance with standard engineering documentation practice, so a reader can see not just what I've built, but how and why I've built it that way. Engineering documentation is a skill developed through deliberate practice. Each assignment was an opportunity to improve the precision, clarity, and professional quality of how I record and defend my work. As I progressed through the semester my engineering capability grew alongside my documentation — this portfolio is the record of that journey.
 
 > **Engineering is the art of making decisions you can defend.**
 
@@ -23,3 +23,5 @@ Use the navigation on the left to move between assignments.
 - **Act III (Weeks 12–15):** Building the complete lead screw translating system.
 
 By A11, every design decision you defend should trace back to something you analyzed and communicated earlier in this site.
+
+![MEGR 2156-7 Title](MEGR2156title.png)
