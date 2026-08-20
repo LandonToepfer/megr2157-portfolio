@@ -1,7 +1,7 @@
 :root {
     --lavender: #a4a9ff;
     --indigo: #3f51b5;
-    --cyan: #00bcd4;
+    
 
     --background: #282a33;
     --box-background: #343744;
@@ -40,7 +40,7 @@ body {
 }
 .md-nav__link:hover {
     background-color: var(--box-hover);
-    color: var(--cyan);
+    color: var(--indigo);
 }
 .md-nav__link--active {
     color: var(--lavender);
@@ -54,7 +54,7 @@ body {
 
     border-radius: 10px;
 
-    border-left: 3px solid var(--cyan);
+    border-left: 3px solid var(--indigo);
 }
 .md-sidebar--secondary .md-nav__title {
     box-shadow: none;
@@ -63,7 +63,7 @@ body {
 
     border-radius: 8px;
 
-    border-left: 3px solid var(--cyan);
+    border-left: 3px solid var(--indigo);
 }
 .md-sidebar--secondary .md-nav__link {
     background-color: var(--box-background);
@@ -76,16 +76,16 @@ body {
 }
 .md-sidebar--secondary .md-nav__link:hover {
     background-color: var(--box-hover);
-    color: var(--cyan);
+    color: var(--indigo);
 }
 .md-typeset a {
-    color: var(--cyan);
+    color: var(--indigo);
 }
 .md-typeset a:hover {
     color: var(--lavender);
 }
 .md-typeset pre {
-    border-left: 3px solid var(--cyan);
+    border-left: 3px solid var(--indigo);
 
     border-radius: 8px;
 
