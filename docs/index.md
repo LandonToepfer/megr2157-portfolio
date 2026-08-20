@@ -22,6 +22,6 @@ Use the navigation on the left to move between assignments.
 - **Act II (Weeks 8–11):** Surveying the machine-element landscape and formally comparing options.
 - **Act III (Weeks 12–15):** Building the complete lead screw translating system.
 
-By A11, every design decision you defend should trace back to something you analyzed and communicated earlier in this site.
+
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
