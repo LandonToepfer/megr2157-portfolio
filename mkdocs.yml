@@ -4,7 +4,8 @@ site_description: Design portfolio documentation, built with the Analyze / Decid
 theme:
   name: material
   palette:
-    primary: green
+    primary: purple
+    accent: black
   features:
     - navigation.instant
     - navigation.tracking
