@@ -1,2 +1,9 @@
-#About Me
-This is how to edit
+#About Me  
+
+##Landon Toepfer  
+Greetings, I'm Landon and I'm studying Mechanical Engineering at UNC Charlotte. Many things in my life guided me towards engineering as a discipline. First and foremost, was my propensity towards math as its always come extremely naturally and I knew I should pick a study that's entrenched in it. I absolutely am a life long learner and think that engineering can keep me fascinated for life. I think that my interest in the field has helped me be present in my learning and show up for the work. Getting the opportunity to attend college for it has been a struggle and a dream as I get the ability to learn how these engineers around the world work to make their projects. I've always been an engineer a heart and now I'm proving I have the strength to push through it academically. I think anyone can do engineering, from a person in their garage to a team of people getting a Nobel peace prize. I'm hoping that the field will give me a steady job that's keeps me learning and gives me the opportunity to turn around and teach others.
+
+##"What does it mean to defend an engineering decision : and do you currently know how to do it?"  
+Currently, at the start of the semester, I think I know what it looks like. I believe there are two main things that are needed to defend a engineering decision: The work behind it, and the communication through it. You need to have clear and convincing evidence to support a decision in order to show that you care about it, and are making the decision while being educated on it. You also need transparency, and lots of it. Communicating about how long it takes to engineer something, why you made all of your decisions and where you made your mistakes. This needs to be communicated to your employer, your team and your client. I would say that I know to do it, and know what it looks like and have done it once before. I wouldn't say that I know how to put all of those together though. We will see how I progress through the semester.
+
+Overall, looking at how much time I spent on this week one assignment, I would say about 8-9 hours across, writing, researching and coding.
