@@ -65,6 +65,14 @@ https://www.youtube.com/watch?v=KKGMr6BDSlQ
 https://www.youtube.com/watch?v=vlZaPx-7JrQ  
 https://oa.upm.es/85661/3/85661.pdf  
 
+<a href="files/Assignment 2.pdf" download>
+    Download My Work Here
+</a>  
+<a href="files/a2_truss.asm (2).zip" download>
+    Download My Assembly Here
+</a>  
+
+
 
 
 
