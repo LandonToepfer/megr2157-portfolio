@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-In this assignment I was tasked with designing a truss within the given problem. The following image was provided with a set of givens.  
+In this assignment, I was tasked with designing a truss within the given problem. The following image was provided with a set of givens.  
 <img width="317" height="215" alt="download" src="https://github.com/user-attachments/assets/da5c4af9-7266-45b9-a400-f1fed7efbedf" />  
 Figure #1.) The force and geometric constraints of the truss design problem.  
 Choose a P between 20 - 30 kN. a = .4 m, b = .3 m. Point A is a pin and point B is a roller. Design a light weight planar truss using A500 structural steel. The cross sectional areas of each element is to be identical. The pins are to be identical to each other and each element has to have the same cross sectional geometry.  
