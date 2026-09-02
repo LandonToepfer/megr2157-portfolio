@@ -58,6 +58,15 @@ Members 1 5 6 are in tension
 I did research to get a general understand of different failure modes of members. There are three main failures, yielding, fracturing and buckling. Yielding and fracturing are generally for members in tension. Whether it yields or fractures depends on the material properties of member. If the material is more brittle then it will fracture before it bends significantly. If the material is highly ductile then it might not be really strong but it will deform and stretch way before it fractures. The material used for this project is A500 structural steel which is generally considered ductile because most carbon based steels are.  
 Now considering the truss material is considered a more ductile metal, I would predict that it would fail through yielding than through fracture. Now the truss member was designed to handle the loads specified in the challenge. One thing I did notice while doing the previous work is that structural steel seems to be shaped and hollow, like a hollow square or circle. If I had to make one change to the design of my truss I would probably do what they do in real life and make it a hollow square with some calculated thickness.  
 #Part 2 - Pin Connections  
+From what I was able to gleam from a paper on pin failures they seem to have been categorized but are all a combination of either the pin breaking, the plate breaking, or a little of both. From the scope of this project, I don't think I could predict which exactly would happen with math but I could take an educated guess. I would assume that our method of failure would have to do with the metal of the joint bending before the pin itself bends. This is because of the safety factors used to design the pin vs. the members. The safety factor of the pin was 4 while the truss member area was 3.5. Also, because we know that the steel is ductile, its more likely that it would bend than crack. This might result in a failure mode called "Dishing". This is where the plates or "lugs" start to deform out of plane and buckle for the pin to slip out.  
+
+#Sources For Second Portion of Assignment  
+https://www.youtube.com/watch?v=KKGMr6BDSlQ 
+https://www.youtube.com/watch?v=vlZaPx-7JrQ 
+https://oa.upm.es/85661/3/85661.pdf 
+
+
+
 
 
 
