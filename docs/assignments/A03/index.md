@@ -30,4 +30,15 @@ Now that I have done the FEA, I can start to analyze my results. I was supposed 
 I also need to calculate the stress concentration factor if there was a pin hole instead of a fixed position on the left side of the bar. I went and found the most complicated equation I've ever seen to calculate the stress concentration factor (Ksubt) and if my pin hole was a quarter of the diameter then my concentration factor would be about 3.1 at the hole. Which would make the max stress now be 1480psi times 3.1. This would make the max stress 4588psi and would make the safety factor change from 27 to about 8.72. This is still based off of the 40,000psi strength limit. This is a major change and shows how the geometry of your design will affect how strong your parts actually need to be.  
 ## Part 2 - Modify design parameters  
 Here I need to go back to my FEA and change all of my variables and predict how that will affect the maximum allowable length.  
-Starting with my maximum deflection, I'm assuming if I increase it, it will allow the bar to be longer because my deflection variable is in the numerator of my length equation.
+Starting with my maximum deflection, I'm assuming if I increase it, it will allow the bar to be longer because my deflection variable is in the numerator of my length equation.  
+<img width="1243" height="654" alt="image" src="https://github.com/user-attachments/assets/e5926537-d275-4d5c-a394-8cdc95167c01" />  
+I was correct. Now I'm going to change the force applied onto the end of the bar. I'm going to assume more force will pull the bar further but because of the maximum deflection it will make the bar shorter. This is also supported because force is in my denominator of my equation.  
+<img width="1243" height="651" alt="image" src="https://github.com/user-attachments/assets/8e54ded9-2380-4211-93a1-cde91a55ba81" />  
+I was correct. Now I'm going to increase the diameter which should increase the maximum length of the bar because the bar will be stronger. This is also supported because diameter is in the numerator of my equation.
+<img width="1242" height="617" alt="image" src="https://github.com/user-attachments/assets/28385040-1f9c-407d-b29b-7098daf102f0" />  
+I was correct. The last thing I can change is my Young's modulus. If I increase it, the material will be more stiff and will be able to be longer without having as much deflection. This is also supported because it's on the numerator of my equation.  
+<img width="1244" height="636" alt="image" src="https://github.com/user-attachments/assets/84220d5c-663a-48b9-8843-b4712daf5ee0" />  
+I was correct. Also I learned during this that I didn't have my length globally assigned to change in the previous screenshot when designing for my FEA but was able to figure out what I was missing so that I didn't have to constantly change the length during this experiment.
+This whole assignment took me around 8 hours and I learned how to use Solidworks. I did make the mistake just mentioned but it didn't really have any effects on my FEA. If I made any other mistakes then they must have been from assignment interpretation.
+
+
