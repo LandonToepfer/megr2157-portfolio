@@ -1,13 +1,33 @@
-# A3 – [Topic]
+# A3 – Parametric and FEA
 
 ## Objective
-
-
-## Analyze
-
-
+In this assignment I was tasked with designing a metal bar parametrically. The bar had a number of given conditions. The bar had to have a circular cross section. The bar had to be made of aluminum with a certain Young's modulus between $ (8.5 - 11.5) * 10^6 $ psi. The bar was also being fixed at one end with an axial tension load between $ 300 < F < 500 $ lbf. Lastly, the bar had to have a max axial deflection of 0.009 inches. Below you'll see how I drew out the problem initially.  
+<img width="982" height="549" alt="image" src="https://github.com/user-attachments/assets/6a042cc3-182f-49a1-b3cc-3d6f12906776" />  
+## Analyze  
+Next I started to work on the math behind the parametric design. I used the equation for deflection that we learned in class, more specifically here, it's for maximum allowable axial deflection. I then listed which variables are which and wrote out which ones I needed to choose as the assignment gave me a range. I also simplified the variable for Area for the circular cross section in terms of diameter. I chose my force to be 450lbf and I chose my Young's to be in the middle of the range at $ 10 * 10^6 $. With all of those fixed, I now was able to find the max allowable length with the max allowable deflection for any given diameter. Initially when running the numbers and trying different diameters I noticed that larger diameters allow the bar to be longer because it can resist deflection better. So I came around to choose 1in as it gave me the closest length to reasonable. It resulted in 157in which is just over 12 feet which I could see being modeled well enough in CAD. Below you will see how I worked through the numbers and found my max allowable length for a chosen diameter.  
+<img width="1043" height="837" alt="image" src="https://github.com/user-attachments/assets/6128cc83-affa-43d1-830d-18330688d898" />  
 ## Decide
-
-
+I then moved into starting the parametric design in CAD. I did have to make a major decision to try to do it in Solidworks as it was recommended. I had never used Solidworks before and I had a lot of problems installing it on my home computer but I was able to put it on my laptop without an issue. It really stressed me out and working with the program was confusing but I was able to adapt just fine in the end. I started the parametric design by assigning global variables so that I could assign those to my part. Notice how some variables like the length are defined in terms of the earlier ones. This is the parametric portion, where if I wanted to change the diameter it would change the length. Below you will see my variables.  
+<img width="1237" height="612" alt="image" src="https://github.com/user-attachments/assets/57963437-1ee5-4f6d-9b45-d38bac09c4dc" />  
+I then made a circular cross section and was able to assign the diameter to the variable I created.  
+<img width="925" height="713" alt="image" src="https://github.com/user-attachments/assets/78aabee1-779d-4b00-a8d9-3fb9130c7560" />  
+I then extruded the cross section into my rod and assigned the length of the extrusion to my "L" variable. You are unable to see it in quotation marks like in the previous screenshot but it is assigned.  
+<img width="1242" height="743" alt="image" src="https://github.com/user-attachments/assets/354a915c-bc79-4cd8-b125-9e68f9b6b40e" />  
+I then needed to assign a material to the part so I found an aluminum allow that was at the top of the list and also had the closest Young's modulus to the one I chose than all the other options.  
+<img width="931" height="770" alt="image" src="https://github.com/user-attachments/assets/2a7a7a82-9938-41fd-a74b-f5e5e80bdc61" />  
+Now that I had my material, I could start on the FEA (Finite Element Analysis). My first step was to fix the rod at one end like in the problem.  
+<img width="934" height="411" alt="image" src="https://github.com/user-attachments/assets/619df981-579d-49a0-af78-dc9a2a91ccd7" />  
+I then assigned the load to the other side.  
+<img width="934" height="457" alt="image" src="https://github.com/user-attachments/assets/32687247-3b5b-4809-b601-ade83f126c64" />  
+Now that my study was defined I was able to run it and get some results on how the bar behaves. First I got a von mises stress map that was in the wrong units so I had to change that.  
+<img width="1243" height="576" alt="image" src="https://github.com/user-attachments/assets/5cefd3d7-8b33-49f4-8d35-74e31f8f4143" />  
+Now that it's in the right units I can see the maximum stress value in psi which was about 1480 psi. If we divide the maximum load experienced in this study by the given problem's maximum strength of 40,000 psi we can get a safety factor of about 27.  
+<img width="1245" height="635" alt="image" src="https://github.com/user-attachments/assets/2c41b91a-1997-4526-9788-0ccc9cf1cf9d" />  
+Now I was also able to get a displacement chart that I changed into inches and the maximum deflection was 0.009171 inches.  
+<img width="1245" height="586" alt="image" src="https://github.com/user-attachments/assets/d59c8559-cd58-4360-ba69-6f09ccb2474c" />  
 ## Communicate
-
+Now that I have done the FEA, I can start to analyze my results. I was supposed to have a max axial deflection of 0.009 but my FEA gave 0.009171. That has a 1.88% difference. The reason for this difference is the material I used for this FEA. I chose a material that had a very close Young's modulus but not the very same. So I know exactly why the number is different. I can safely assume that if the material had the same Young's then it would've had the same deflection so I would probably trust my hand calculations more for accuracy, but If I was actually designing a bar like this then I would be using the exact material properties I would have to use in real world conditions. In that case I would trust my FEA to give me a better representation of the results.  
+I also need to calculate the stress concentration factor if there was a pin hole instead of a fixed position on the left side of the bar. I went and found the most complicated equation I've ever seen to calculate the stress concentration factor (Ksubt) and if my pin hole was a quarter of the diameter then my concentration factor would be about 3.1 at the hole. Which would make the max stress now be 1480psi times 3.1. This would make the max stress 4588psi and would make the safety factor change from 27 to about 8.72. This is still based off of the 40,000psi strength limit. This is a major change and shows how the geometry of your design will affect how strong your parts actually need to be.  
+## Part 2 - Modify design parameters  
+Here I need to go back to my FEA and change all of my variables and predict how that will affect the maximum allowable length.  
+Starting with my maximum deflection, I'm assuming if I increase it, it will allow the bar to be longer because my deflection variable is in the numerator of my length equation.
