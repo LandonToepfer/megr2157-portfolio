@@ -38,7 +38,10 @@ I was correct. Now I'm going to increase the diameter which should increase the 
 <img width="1242" height="617" alt="image" src="https://github.com/user-attachments/assets/28385040-1f9c-407d-b29b-7098daf102f0" />  
 I was correct. The last thing I can change is my Young's modulus. If I increase it, the material will be more stiff and will be able to be longer without having as much deflection. This is also supported because it's on the numerator of my equation.  
 <img width="1244" height="636" alt="image" src="https://github.com/user-attachments/assets/84220d5c-663a-48b9-8843-b4712daf5ee0" />  
-I was correct. Also I learned during this that I didn't have my length globally assigned to change in the previous screenshot when designing for my FEA but was able to figure out what I was missing so that I didn't have to constantly change the length during this experiment.
-This whole assignment took me around 8 hours and I learned how to use Solidworks. I did make the mistake just mentioned but it didn't really have any effects on my FEA. If I made any other mistakes then they must have been from assignment interpretation.
+I was correct. Also I learned during this that I didn't have my length globally assigned to change in the previous screenshot when designing for my FEA but was able to figure out what I was missing so that I didn't have to constantly change the length during this experiment.  
+This whole assignment took me around 8 hours and I learned how to use Solidworks. I did make the mistake just mentioned but it didn't really have any effects on my FEA. If I made any other mistakes then they must have been from assignment interpretation.  
 
+<a href="../../files/Part1.SLDPRT" download>
+    Download My Part Here
+</a> 
 
