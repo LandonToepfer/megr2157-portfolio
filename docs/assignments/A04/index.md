@@ -21,6 +21,32 @@ I then extruded off the side of feature 1 to form feature 2. This attachment was
 <img width="1103" height="605" alt="image" src="https://github.com/user-attachments/assets/467712f2-1791-4909-8180-e91d27470dc4" />  
 Then I extruded this area using the length of feature 2. I hope that the green outline of where this feature starts helps you separate the two blocks.  
 <img width="1109" height="489" alt="image" src="https://github.com/user-attachments/assets/80908959-4791-42fa-a925-cced36c947b1" />  
-Now I needed to start putting the holes for the motor attachment into feature 1. I started by defining a central axis so that I could parametrically define the holes around it. I chose it's location to be half the width of the motor from the top end (right side) of the mount. Then I chose it to be in the middle of the horizontal dimension (top to bottom). This provided a perfect clearance for the motor and centers its location.
+Now I needed to start putting the holes for the motor attachment into feature 1. I started by defining a central axis so that I could parametrically define the holes around it. I chose it's location to be half the width of the motor from the top end (right side) of the mount. Then I chose it to be in the middle of the horizontal dimension (top to bottom). This provided a perfect clearance for the motor and centers its location.  
+<img width="1106" height="687" alt="image" src="https://github.com/user-attachments/assets/fbe85623-ee95-4dbd-aa44-9d6b7edfa188" />  
+With that axis, placing the holes was really easy as I could define them coaxially. I started with the indented section that would help seat the extended portion of the motor head. These dimensions for the motor can be found in the very first image of the assignment and some are circled in yellow. This feature of the motor extends 2mm out and is 18mm in diameter. Here you can see that first hole.  
+<img width="1116" height="817" alt="image" src="https://github.com/user-attachments/assets/b41b11ad-f53d-4685-b96a-cd01ca2137b3" />  
+Then I made the hole for the motor's shaft. I placed the hole coaxially, set its width to 6mm which is the diameter of the shaft. I set the hole to go through the whole part.  
+<img width="1114" height="896" alt="image" src="https://github.com/user-attachments/assets/3dc62694-5766-4b9a-9f74-74b217c5e849" />  
+I now started on the clearance holes for the mounting holes. They were told to me to be 3.4mm in diameter. I defined the hole placement radially. I set it's radius to be 11mm which is half of the diameter listed on the part specs from hole to hole. On the part specs, there are matching holes on all 4 sides. I'm about to make all of those. I set the diameter of my hole to be 3.4mm and for it to go through the whole part. I also needed to choose a reference plane to define the angular axis so I chose the one you can see in the top of picture tinted with a light brown color.  
+<img width="1110" height="851" alt="image" src="https://github.com/user-attachments/assets/35fb6273-0342-4ea2-ac7b-6a6cca7b9a45" />  
+Now I'm going to use a pattern to duplicate the hole around the central axis. I used the angular dimension which is highlighted in green in the center of the picture. It was set to 0 degrees in this and the previous picture. Using the angular dimension I set the member count to be 4, as I want 4 holes in total. Then I set the increment to be 90 (in degrees). This will place the hole perfectly on each orthogonal corner. This pattern keeps the radius from the center the same and the diameter of each individual member the same.  
+<img width="1120" height="774" alt="image" src="https://github.com/user-attachments/assets/0fe32cc6-e596-48aa-bc9d-de29930c30e8" />  
+Now you can see how that pattern turned out with the four cloned hole features (Highlighted in green).  
+<img width="1115" height="739" alt="image" src="https://github.com/user-attachments/assets/f373119f-fd7f-4781-8d2a-eac81edeb458" />  
+I then moved onto feature 2 and its attachment to the wall. I wasn't given any specific dimensions on how the mounting holes were to be defined so I kept the same dimension as the mounting screws for the motor. I also chose the position to be 2 times the diameter of the hole from the top corners. I then calculated the distance between those two top holes in order to get that distance so that I can place 4 of those holes in a square. I defined the holes starting with one place 6.80mm from the corner. Then placed 3 more with a distance of 18.40mm which was the distance aforementioned.  
+<img width="1114" height="591" alt="image" src="https://github.com/user-attachments/assets/6abcba2c-5443-4c4b-97bb-45a5614eb8f4" />  
+Now here's how those holes turned out (Highlighted in green).  
+<img width="1115" height="605" alt="image" src="https://github.com/user-attachments/assets/0faa94b2-eada-4d4e-afa4-8551e32c3f29" />  
+Now here is the final design.  
+<img width="862" height="939" alt="image" src="https://github.com/user-attachments/assets/6045de3d-41e4-483d-a01c-77588867b80b" />  
+## CAD Drawing
+
+
+
+
+
+
+
+
 
 
