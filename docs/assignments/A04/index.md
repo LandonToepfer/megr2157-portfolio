@@ -46,13 +46,13 @@ Here is what it looks like exported as a PDF.
 <img width="1049" height="812" alt="image" src="https://github.com/user-attachments/assets/1f190e60-cb39-4d8b-a3f8-0203c10b6e26" />  
 ## Downloads  
 <a href="../../files/a4motormount.prt.1" download>  
-    Download My Part Here
+    Download My Part Here  
 </a>  
 <a href="../../files/a4motormountdrawing.zip" download>  
-    Download My CAD Drawing Here
+    Download My CAD Drawing Here  
 </a>  
 <a href="../../files/a4motormountdrawing.pdf" download>  
-    Download My Drawing PDF Here
+    Download My Drawing PDF Here  
 </a>  
 
 
