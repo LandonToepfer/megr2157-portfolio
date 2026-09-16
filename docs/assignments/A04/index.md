@@ -1,13 +1,26 @@
-# A4 – [Topic]
+# A4 – Motor Mount
 
 ## Objective
+In this assignment I was tasked with designing a plastic motor mount. The specific motor was given along with it's dimensions. I was given the option to choose one of three different plastics to make it out of. I chose ABS for no particular reason. Multiple assumptions were made as well. The weight of the motor was to be neglected. There was an applied force of 300N on the shaft of the motor that will be used for a moment later on. One side of the mount attaches to a rigid wall while the other attaches to the motor. We are to design the dimensions of the mount parametrically by designing for material strength and for allowable deflection. In this next image you will see how I listed my requirements and highlighted what I found important.  
+<img width="2146" height="939" alt="image" src="https://github.com/user-attachments/assets/08c4449d-0b58-4f68-928d-806e798edcbf" />  
+## Feature 1  
+Moving on to the first feature, were starting with the portion connected to the motor. Here we have a few dimensions, the length (L), the width (h), and the thickness (b). I started with listing my knowns and unknowns, and drawing a diagram of how I have to design this part. My knowns are the material and it's properties, the safety factor, the applied force (P) and what that is as a moment (PL), how I'm supposed to design it (cantilever setup), and finally that the holes are accounted for in the safety factor. Now what I needed to do here was pick my length and width for my design based off of how big my motor was and then solve for the thickness using my different known properties. I picked h to be 32mm and L to be 34mm. Then I was able to solve for my thickness two separate ways. The first way was using a strength equation using the yield strength of the material. The second way was for deflection using the Young's modulus or stiffness of the material. After solving, I plugged in my numbers and found thickness for strength to be 3.74mm and thickness for deflection to be 6.75mm. Now we want both strength and stiffness so I chose the larger of both numbers so that it doesn't fail at either. Below you will see my work for the first feature. My numbers in blue is my work for strength and my numbers in green is my work for deflection.  
+<img width="1308" height="1265" alt="image" src="https://github.com/user-attachments/assets/7f931c0d-4c35-4892-843e-b1b5a2fa245f" />  
+## Feature 2  
+Moving on to the second feature, the wall mounted portion. Starting with my knowns, again we know the material and it's properties, the safety factor, the applied force (P) and what that is as a moment (PL), and max deflection. A few new things to note are that are old thickness is going to be the same as our new thickness. I also need to choose a new length (L) for this feature. I actually played around a lot with my length after solving for my thickness both ways again in order for my thickness to be reasonable. I ended on my length being 30mm. The equations are the same exact equations from feature one however I stilled solved them and have all the same work. After plugging in my numbers I got 3.30mm for my strength thickness and 4.63mm for my deflection thickness. Now, its the same process of choosing the larger number so that the design can support both requirements. Note that the end of feature 2 is going to be attached to the side of feature 1. In the next image you will see my work for feature 2.  
+<img width="912" height="905" alt="image" src="https://github.com/user-attachments/assets/225c5923-3151-4efa-a491-2c6635ebbba1" />  
+## Isometric sketch  
+The assignment wanted me to draw the part altogether on paper isometrically. I did this by finding isometric paper online so I can print it and then drawing the part to mostly accurate dimensions using the pattern of the paper. The drawing has all the dimensions of feature 1 and feature 2 while also including the holes and features needed for the attachment points.  
+<img width="699" height="507" alt="image" src="https://github.com/user-attachments/assets/dcafd51f-2d4d-48b1-876a-d26b5ee6de75" />  
+## CAD Design  
+I started off designing the part in CAD with the same flow as I did during the earlier portions of this assignment. I started by sketching the area (Length and Width) of Feature 1.  
+<img width="1011" height="741" alt="image" src="https://github.com/user-attachments/assets/a5be2f90-dadc-4603-82ae-52f0e4e53275" />  
+I then extruded that with the thickness found for feature 1 that designs for deflection (6.75mm).  
+<img width="1073" height="791" alt="image" src="https://github.com/user-attachments/assets/04d018f1-f57c-48f0-ab8d-bdb5bc40ba28" />  
+I then extruded off the side of feature 1 to form feature 2. This attachment was also mentioned at the end of the feature 2 portion of this assignment. I used the parametric constraints to define the area from end to end so that I would have the same width (h). I then used the thickness found for feature 2 that designs for deflection (4.63mm).  
+<img width="1103" height="605" alt="image" src="https://github.com/user-attachments/assets/467712f2-1791-4909-8180-e91d27470dc4" />  
+Then I extruded this area using the length of feature 2. I hope that the green outline of where this feature starts helps you separate the two blocks.  
+<img width="1109" height="489" alt="image" src="https://github.com/user-attachments/assets/80908959-4791-42fa-a925-cced36c947b1" />  
+Now I needed to start putting the holes for the motor attachment into feature 1. I started by defining a central axis so that I could parametrically define the holes around it. I chose it's location to be half the width of the motor from the top end (right side) of the mount. Then I chose it to be in the middle of the horizontal dimension (top to bottom). This provided a perfect clearance for the motor and centers its location.
 
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
 
