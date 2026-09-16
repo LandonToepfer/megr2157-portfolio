@@ -12,7 +12,7 @@ Moving on to the second feature, the wall mounted portion. Starting with my know
 ## Isometric sketch  
 The assignment wanted me to draw the part altogether on paper isometrically. I did this by finding isometric paper online so I can print it and then drawing the part to mostly accurate dimensions using the pattern of the paper. The drawing has all the dimensions of feature 1 and feature 2 while also including the holes and features needed for the attachment points.  
 <img width="699" height="507" alt="image" src="https://github.com/user-attachments/assets/dcafd51f-2d4d-48b1-876a-d26b5ee6de75" />  
-## CAD Design  
+## CAD Model  
 I started off designing the part in CAD with the same flow as I did during the earlier portions of this assignment. I started by sketching the area (Length and Width) of Feature 1.  
 <img width="1011" height="741" alt="image" src="https://github.com/user-attachments/assets/a5be2f90-dadc-4603-82ae-52f0e4e53275" />  
 I then extruded that with the thickness found for feature 1 that designs for deflection (6.75mm).  
@@ -40,6 +40,21 @@ Now here's how those holes turned out (Highlighted in green).
 Now here is the final design.  
 <img width="862" height="939" alt="image" src="https://github.com/user-attachments/assets/6045de3d-41e4-483d-a01c-77588867b80b" />  
 ## CAD Drawing
+I also had to make my part have a CAD drawing which was fairly easy as I did it in a previous course fairly often and had prebuilt formats saved. I placed all of my views with real and hidden lines being shown. These 4 views are front, top, right, and an isometric view. The first three views have all of my dimensions displayed so that someone would be able to build my part from just the drawing itself. Below is a picture of what it looks like in my CAD program.  
+<img width="2547" height="1439" alt="image" src="https://github.com/user-attachments/assets/89fbe016-c7ca-4cf0-8bc7-03979f207e84" />  
+Here is what it looks like exported as a PDF.  
+<img width="1049" height="812" alt="image" src="https://github.com/user-attachments/assets/1f190e60-cb39-4d8b-a3f8-0203c10b6e26" />  
+## Downloads  
+<a href="../../files/a4motormount.prt.1" download>
+    Download My Part Here
+</a>  
+<a href="../../files/a4motormountdrawing.zip" download>
+    Download My CAD Drawing Here
+</a>  
+<a href="../../files/a4motormountdrawing.pdf" download>
+    Download My Drawing PDF Here
+</a>  
+
 
 
 
