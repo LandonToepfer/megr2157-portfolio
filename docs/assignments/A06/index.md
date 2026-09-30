@@ -52,6 +52,6 @@ I had the same process with the link drawing. It was fairly easy to create and I
 <a href="../../files/a6link.drw.zip" download>  
     Download Link Drawing
 </a>  
-<a href="../../files/a4link.prt.1" download>  
+<a href="../../files/a6link.prt.1" download>  
     Download Link
 </a> 
