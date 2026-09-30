@@ -42,3 +42,16 @@ I used those global variables for an equation designed around strength for this 
 I used the tolerances of the hole fits to readjust the dimensions of the holes. This then populated into the drawing and I added the tolerances needed to still fall into my fit classes.  
 <img width="1439" height="1115" alt="image" src="https://github.com/user-attachments/assets/388cb9f2-fe90-4b03-9a86-525cbc977c99" />
 I had the same process with the link drawing. It was fairly easy to create and I had a template for the name block that I used.
+## Downloads  
+<a href="../../files/a6bracket.drw.zip" download>  
+    Download Bracket Drawing
+</a>  
+<a href="../../files/a6bracket.prt.1" download>  
+    Download Bracket
+</a>  
+<a href="../../files/a6link.drw.zip" download>  
+    Download Link Drawing
+</a>  
+<a href="../../files/a4link.prt.1" download>  
+    Download Link
+</a> 
