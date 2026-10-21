@@ -42,7 +42,7 @@ I ended up getting a 3.28 percent convergence which is nice. I then was able to 
 I then needed to calculate from the mass units provided into pounds so I looked up the conversion value.  
 <img width="647" height="124" alt="image" src="https://github.com/user-attachments/assets/799b4a2e-4003-4585-8665-0ea9e8ced649" />  
 ## Inner loop 2  
-I then made an informed change to my design. I added another support for the rod and rounded those corners to stop stress from concentrating. The rounding also helped support that bar more.  
+I then made an informed change to my design. I thickened and added another support for the rod and rounded those corners to stop stress from concentrating. The rounding also helped support that bar more.  
 <img width="584" height="723" alt="image" src="https://github.com/user-attachments/assets/0c6daaba-4c2f-4dcd-8bd5-bdf0533e3d75" />  
 <img width="608" height="746" alt="image" src="https://github.com/user-attachments/assets/0fb8b19b-c1c2-4c33-a654-781d6ed1914a" />  
 I won't be showing every step again for redundancy similar to how I only showed the report for how many elements there are once. I then ran the first two tests again, with 1 in elements giving me 2563 elements, and 0.5 in elements giving me 12956 elements.  
@@ -76,6 +76,52 @@ My results converged with 2.78 percent immediately which is super nice. So I jus
 ## End of outer loop
 So here are my results from my table. This shows how my informed changes increased the safety factors by decreasing the stress and dislocation. This improved the design measurably. I didn't try to optimize for weight in this process as adding new features was going to increase weight anyway. I essentially took a failing, theoretical design and tested it in Creo to find out how to turn it into a practical successful design.  
 <img width="1033" height="521" alt="image" src="https://github.com/user-attachments/assets/3c029318-02ce-40ff-b9c7-4108767fee29" />  
+## FEA on Link
+I always have extra work so I had to do the same process on the link. I had the same setup where I had to assign the material and make sure I was in the right units. I did have to setup the constraint and the loading because its a new part. I went with constraining the top hole that connects to the bracket and pulling down using the bottom hole that connects to the 1 in diameter rod. I used the same magnitude of forces too.   
+<img width="1092" height="669" alt="image" src="https://github.com/user-attachments/assets/95afe715-448c-49c5-a85a-983c1bffd03d" />  
+## Inner loop 1
+I again started with 1 in elements and 0.5 in elements for the first two tests. Giving me 537 elements and 1234 elements.  
+<img width="1025" height="689" alt="image" src="https://github.com/user-attachments/assets/34388ad2-3449-41e9-8965-fc6e0f9f064a" />   
+<img width="878" height="331" alt="image" src="https://github.com/user-attachments/assets/301b8a05-b19d-4428-b3fe-5834b6fca42b" />  
+Here are the results comparing tests 1 and 2.  
+<img width="1095" height="521" alt="image" src="https://github.com/user-attachments/assets/199969c6-c913-4db5-aeda-e9cdbe556f30" />  
+<img width="1088" height="529" alt="image" src="https://github.com/user-attachments/assets/2b071424-806c-47d5-91d3-fdf30c9a7fe2" />  
+They converged immediately again which is convenient. They had a 1.30 percent convergence so I rand the numbers on my safety factors and moved on to making a change.  
+<img width="777" height="204" alt="image" src="https://github.com/user-attachments/assets/a1435f9d-f146-4107-bd47-e7a1612bf102" />  
+<img width="803" height="419" alt="image" src="https://github.com/user-attachments/assets/9f19652c-b665-438e-88e3-7658467992cd" />  
+## Inner loop 2
+I increased the thickness to 0.3 inches and did a 0.02 in rounding on the insides of the holes to see if I could get rid of stress concentrations.  
+<img width="492" height="762" alt="image" src="https://github.com/user-attachments/assets/95b62dd6-65da-4250-b9ff-95b961284747" />  
+I again started with 1 in elements and 0.5 in elements for the first two tests. Giving me 1526 elements and 2323 elements. Here are the results for comparing tests 1 and 2.  
+<img width="933" height="456" alt="image" src="https://github.com/user-attachments/assets/5460341b-d35c-4438-bd56-72d33fc567cb" />  
+<img width="934" height="453" alt="image" src="https://github.com/user-attachments/assets/bb264ad3-bd3d-4e27-b778-b2ef247e9fb5" />  
+I calculated the convergence as 29.6 percent so I would need to refine the mesh.  
+<img width="677" height="179" alt="image" src="https://github.com/user-attachments/assets/2d8deee4-b41e-4a5b-9fb6-f43f0d11a566" />  
+0.25 in elements gave me 9411 elements total. Here are the results for comparing tests 2 and 3.  
+<img width="930" height="455" alt="image" src="https://github.com/user-attachments/assets/3d787b26-0e1a-4d11-983a-8ee1d325e048" />  
+<img width="937" height="449" alt="image" src="https://github.com/user-attachments/assets/e17d5063-2bf7-4e5d-b919-59678d202d81" />  
+I calculated convergence to be 31.6 percent so I would need to refine the mesh.  
+<img width="657" height="171" alt="image" src="https://github.com/user-attachments/assets/c6394da5-b28d-473e-ad11-d31272c71ec7" />  
+I increased it to 0.2 in elements and I got 56814 elements. Here are the results comparing tests 3 and 4.  
+<img width="936" height="454" alt="image" src="https://github.com/user-attachments/assets/93f8302c-5f09-4cc0-9efb-a84365af7780" />  
+<img width="932" height="444" alt="image" src="https://github.com/user-attachments/assets/84de8207-50c8-4bf4-ac66-53a6ab195ef9" />  
+I calculated convergence and got 14.5 percent. So the results never converged and I moved onto calculating my safety factors and other things for the table.  
+<img width="668" height="351" alt="image" src="https://github.com/user-attachments/assets/8662b616-6577-4221-9b8a-145e593fcaa9" />  
+## Inner loop 3  
+I increased the thickness again and increased the rounding on the holes to try one last time to move the stress away from the edge of the upper hole.  
+<img width="675" height="739" alt="image" src="https://github.com/user-attachments/assets/2ce807c8-721d-480f-9522-9b7572064174" />  
+I again started with 1 in elements and 0.5 in elements for the first two tests. Giving me 1305 elements and 2736 elements. Here are the results for comparing tests 1 and 2.  
+<img width="927" height="449" alt="image" src="https://github.com/user-attachments/assets/99270061-548d-462d-b03e-78bfb89c9367" />  
+<img width="933" height="448" alt="image" src="https://github.com/user-attachments/assets/4051481d-1c8e-4134-bc19-3b2fd030fc41" />  
+The results converged immediately with 0.29 percent. So I calculated the safety factors and put all my values into my table.  
+<img width="679" height="170" alt="image" src="https://github.com/user-attachments/assets/0b3d07b3-2d68-4e06-a851-031ef253372c" />  
+<img width="680" height="359" alt="image" src="https://github.com/user-attachments/assets/5c961dfc-a4a7-425e-aefd-83a95745908e" />  
+## End of outer loop  
+I was able to decrease the amount of stress experienced in the material and reduce the dislocation. Overall I would say my changed weren't incredibly significant but it was very simple geometry and I was focusing my mental energy on looping through the process. I was able to increase the safety factors heavily and I would say I still improved the design using the FEA method.  
+<img width="885" height="447" alt="image" src="https://github.com/user-attachments/assets/17cd0de2-7e99-4b54-8a5e-656f45e0ace0" />  
+## Reflection  
+During this assignment I spent a lot of time at the beginning just learning how to do this method inside the program of Creo. It wasn't super complicated and I think it was more detailed than the way Solidworks does it. This whole process combined things that I learned in class with a practical application for them to used. I was able to analyze a structure and see where it was weakest then formulate and implement an idea to improve the design. Then being able to test my idea and iterate on it was very fulfilling to do. Seeing the results improve across iterations made me feel productive and demonstrated my ability to reengineer and idea in a feedback loop. I also learned how meshes work. The computer is given a set of parameters and then distributes the body into elements and solves equations on every one of those lines between them. Finer meshes means more equations which means theoretically better results. In many cases the results can swing wildly and so doing multiple tests to see if I can get the data to "agree" or converge helps validate the final data points. Finer meshes also take longer to solve which wasn't much of a hinderance for me personally but I could easily see how if you had a larger part and you wanted to use a fine mesh, the analysis could get out of hand. I learned a lot of small things during this assignment that all culminated to give me a better understanding of the FEA method and it's place in the engineering process. I spent about 9 hours droning through this assignment.  
+## Downloads  
 
 
 
