@@ -122,15 +122,11 @@ I was able to decrease the amount of stress experienced in the material and redu
 ## Reflection  
 During this assignment I spent a lot of time at the beginning just learning how to do this method inside the program of Creo. It wasn't super complicated and I think it was more detailed than the way Solidworks does it. This whole process combined things that I learned in class with a practical application for them to used. I was able to analyze a structure and see where it was weakest then formulate and implement an idea to improve the design. Then being able to test my idea and iterate on it was very fulfilling to do. Seeing the results improve across iterations made me feel productive and demonstrated my ability to reengineer and idea in a feedback loop. I also learned how meshes work. The computer is given a set of parameters and then distributes the body into elements and solves equations on every one of those lines between them. Finer meshes means more equations which means theoretically better results. In many cases the results can swing wildly and so doing multiple tests to see if I can get the data to "agree" or converge helps validate the final data points. Finer meshes also take longer to solve which wasn't much of a hinderance for me personally but I could easily see how if you had a larger part and you wanted to use a fine mesh, the analysis could get out of hand. I learned a lot of small things during this assignment that all culminated to give me a better understanding of the FEA method and it's place in the engineering process. I spent about 9 hours droning through this assignment.  
 ## Downloads  
+<a href="../../files/a7bracket3.prt.1" download>  
+    Download Final Bracket Design
+</a>  
+<a href="../../files/a7link3.prt.1" download>  
+    Download Final Link Design
+</a>  
 
-
-
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
 
