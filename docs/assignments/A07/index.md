@@ -74,7 +74,7 @@ My results converged with 2.78 percent immediately which is super nice. So I jus
 <img width="847" height="204" alt="image" src="https://github.com/user-attachments/assets/e5119ec8-5610-4ac5-9cfc-e40896a9957f" />  
 <img width="831" height="206" alt="image" src="https://github.com/user-attachments/assets/08192039-00b0-4313-ba08-748f75f09474" />  
 ## End of outer loop
-So here are my results from my table. This shows how my informed changes increased the safety factors by decreasing the stress and dislocation. This improved the design measurably. I didn't try to optimize for weight in this process as it adding new features was going to increase weight anyway. I essentially took a failing, theoretical design and tested it in Creo to find out how to turn it into a practical successful design.  
+So here are my results from my table. This shows how my informed changes increased the safety factors by decreasing the stress and dislocation. This improved the design measurably. I didn't try to optimize for weight in this process as adding new features was going to increase weight anyway. I essentially took a failing, theoretical design and tested it in Creo to find out how to turn it into a practical successful design.  
 <img width="1033" height="521" alt="image" src="https://github.com/user-attachments/assets/3c029318-02ce-40ff-b9c7-4108767fee29" />  
 
 
