@@ -12,4 +12,7 @@ The second portion of this assignment has me designing the journal bearings. Thi
 <img width="957" height="1241" alt="image" src="https://github.com/user-attachments/assets/5dcb5c16-4175-42d0-a519-f393c5b65dff" />  
 The other part of the journal bearings I have to solve for is the thickness of the bearings. I listed my knowns and unknowns and used a simple stress equation to determine the thickness needed. I used the Pmax of the material selected and drew a free body diagram in order to solve for the thickness of the bearing. I ended up getting 0.002 in. I then selected two bearings from the McMaster-Carr database that would end up being used for my gearbox and listed their part names at the bottom.  
 <img width="1460" height="1079" alt="image" src="https://github.com/user-attachments/assets/1586fcc8-7d73-47e1-9d82-bd3a280a353a" />  
+The assignment then asked me to sketch how this gearbox would look and be assembled. I came up with this design. It's a trapezoidal shape, it has internal shoulders to keep the bearings from moving inward. Lastly it is fastened with a nut and bolt system.  
+<img width="1987" height="1095" alt="image" src="https://github.com/user-attachments/assets/26343cbf-0ab4-4329-8f39-ea64dcfa3b17" />  
+
 
