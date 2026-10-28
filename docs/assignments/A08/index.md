@@ -69,14 +69,14 @@ And finally here is the assembly. Yes, I know why the screws are pink, no, I cou
 I did a lot over the course of the assignment. I was able to produce an entire gearbox almost from scratch. Most of the work was in the CAD portion. Some of my most important lessons were in designing the housing. For example, having to choose how to fasten the two halves together is more complicated than I thought. I had to pick which system I thought would be the best for my use case, I had to find the type of bolt I would use, I had to decide which size of standardized bolt it would be and then I had to get the dimensions for that bolt to be able to actually use it in my part. Another lesson I learned was from the bearings, there so many bearings I could choose from to use for this gearbox because of the material they are made of, the outside diameter, the inside diameters, and the length. When I was doing the designing I also came across the inside shoulder idea from looking at other bearing use cases, so I learned that preventing bearings from moving can be done this way and is important for keeping the gearbox together. I really enjoyed designing the gearbox and putting it together because it was a culmination of a lot of my soft skills that I've been picking up over the years. Overall I spent around 12 hours completing this assignment over two days.  
 ## Downloads
 <a href="../../files/a8_gearbox_2.asm.zip" download>  
-    Download Assembly
-</a>  
+    Download Assembly  
+</a>   
 <a href="../../files/a8_assembly.drw.zip" download>  
-    Download Assembly Drawing
-</a>  
+    Download Assembly Drawing  
+</a>   
 <a href="../../files/other drawings.zip" download>  
-    Download 6 other drawings
-</a>  
+    Download 6 other drawings  
+</a>   
 
 
 
