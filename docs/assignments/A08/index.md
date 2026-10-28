@@ -12,18 +12,21 @@ The second portion of this assignment has me designing the journal bearings. Thi
 <img width="957" height="1241" alt="image" src="https://github.com/user-attachments/assets/5dcb5c16-4175-42d0-a519-f393c5b65dff" />  
 The other part of the journal bearings I have to solve for is the thickness of the bearings. I listed my knowns and unknowns and used a simple stress equation to determine the thickness needed. I used the Pmax of the material selected and drew a free body diagram in order to solve for the thickness of the bearing. I ended up getting 0.002 in. I then selected two bearings from the McMaster-Carr database that would end up being used for my gearbox and listed their part names at the bottom.  
 <img width="1460" height="1079" alt="image" src="https://github.com/user-attachments/assets/1586fcc8-7d73-47e1-9d82-bd3a280a353a" />  
+The assignment seems like it wants me to make the sleeve bearings that I calculated so I will make those anyway. Here is the output bearing.
+<img width="1064" height="933" alt="image" src="https://github.com/user-attachments/assets/4d228ced-e54c-4488-9f20-948b699dbf32" />  
+And here is the input bearing.  
+<img width="664" height="561" alt="image" src="https://github.com/user-attachments/assets/4441809e-749c-44a9-af78-96f31de548be" />  
 
 ## Housing Design  
 The assignment then asked me to sketch how this gearbox would look and be assembled. I came up with this design. It's a trapezoidal shape, it has internal shoulders to keep the bearings from moving inward. Lastly it is fastened with a nut and bolt system.  
 <img width="1987" height="1095" alt="image" src="https://github.com/user-attachments/assets/26343cbf-0ab4-4329-8f39-ea64dcfa3b17" />  
-Most of the parts I can import files for, like the gears, the bearings, and the nuts/bolts. So I'll show you the ones I was able to import. My input bearing, output bearing, input gear, output gear,  
+Most of the parts I can import files for, like the gears, the bearings, and the nuts/bolts. So I'll show you the ones I was able to import. My input bearing, output bearing, input gear, output gear, the screw and the nut.   
 <img width="1391" height="938" alt="image" src="https://github.com/user-attachments/assets/bb14f71a-8566-4f0d-8839-9ed7c712cf93" />  
 <img width="1745" height="1036" alt="image" src="https://github.com/user-attachments/assets/bbf79f73-e115-4205-a1ac-9ea466af65e3" />  
 <img width="1553" height="1062" alt="image" src="https://github.com/user-attachments/assets/f9dfbcd4-4818-448d-9912-4a7278d86e69" />  
 <img width="1354" height="966" alt="image" src="https://github.com/user-attachments/assets/50af79fd-287e-4bb2-8ad7-20b9021e0b31" />  
-SCREW
-NUT
-CHANGE TEXT ABOVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+<img width="1200" height="791" alt="image" src="https://github.com/user-attachments/assets/357053d7-c66b-4f64-9cf0-18bcc94548c5" />  
+<img width="1259" height="903" alt="image" src="https://github.com/user-attachments/assets/7faa0d95-30b1-4dc0-baf0-70f70ba51dbd" />  
 I then designed my housing for the gears. I show you some of the parameters I set to design it, alongside the final product then Ill explain what I did to come up with it.  
 <img width="2220" height="856" alt="image" src="https://github.com/user-attachments/assets/21a19be0-f226-43df-aff9-4cc1d5e9abc4" />  
 I started with trying to define the inner area where the gears will be with some outside area so they don't touch the walls. I had to use a lot of tangent and perpendicular lines. I was able to use my relations to define where the gears would be sitting and then make larger circles around that and connect them to get the shape I imagined in my sketch.  
@@ -41,6 +44,11 @@ I then went and made the inside shoulder with a hole wide enough for the shaft t
 I then rounded it to make it stronger and smoother.  
 <img width="1161" height="911" alt="image" src="https://github.com/user-attachments/assets/ebbfa0fc-c852-46a7-850a-75d7d5009125" />  
 Then I just backed up a few steps and made the output half of the housing. The only difference being where the shaft enters and the hole's size as well as some counterbores for the screw heads to sit in.  
+
+## Assembly
+I went ahead and put it all together and here is what the final product looks like.  
+<img width="1318" height="864" alt="image" src="https://github.com/user-attachments/assets/9609c073-6e95-4090-b5d4-087015c9572c" />  
+<img width="1574" height="1201" alt="image" src="https://github.com/user-attachments/assets/1f900f87-3422-4a5b-b5fa-6479e62f2669" />  
 
 
 
