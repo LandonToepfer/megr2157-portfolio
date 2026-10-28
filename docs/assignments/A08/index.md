@@ -60,7 +60,9 @@ Here is the input shaft.
 Here is the output shaft.  
 <img width="1442" height="1112" alt="image" src="https://github.com/user-attachments/assets/043dd41b-a732-4e2b-b8f3-15b5254bc25b" />  
 Here is the input housing.  
-<img width="1283" height="992" alt="image" src="https://github.com/user-attachments/assets/35dedf62-7eb5-4233-8961-a6948e6db55b" />  
+<img width="1443" height="1114" alt="image" src="https://github.com/user-attachments/assets/d40e681e-f749-4c9e-8624-b20375ad45e0" />
+
+
 
 
 
