@@ -44,7 +44,7 @@ I then went and made the inside shoulder with a hole wide enough for the shaft t
 I then rounded it to make it stronger and smoother.  
 <img width="1161" height="911" alt="image" src="https://github.com/user-attachments/assets/ebbfa0fc-c852-46a7-850a-75d7d5009125" />  
 Then I just backed up a few steps and made the output half of the housing. The only difference being where the shaft enters and the hole's size as well as some counterbores for the screw heads to sit in.  
-
+<img width="1228" height="920" alt="image" src="https://github.com/user-attachments/assets/f6dc6082-1f82-41db-9ed2-d84ed7802096" />  
 ## Assembly
 I went ahead and put it all together and here is what the final product looks like.  
 <img width="1318" height="864" alt="image" src="https://github.com/user-attachments/assets/9609c073-6e95-4090-b5d4-087015c9572c" />  
