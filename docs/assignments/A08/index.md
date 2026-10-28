@@ -60,8 +60,14 @@ Here is the input shaft.
 Here is the output shaft.  
 <img width="1442" height="1112" alt="image" src="https://github.com/user-attachments/assets/043dd41b-a732-4e2b-b8f3-15b5254bc25b" />  
 Here is the input housing.  
-<img width="1443" height="1114" alt="image" src="https://github.com/user-attachments/assets/d40e681e-f749-4c9e-8624-b20375ad45e0" />
-
+<img width="1443" height="1114" alt="image" src="https://github.com/user-attachments/assets/d40e681e-f749-4c9e-8624-b20375ad45e0" />  
+Here is the output housing.  
+<img width="1282" height="993" alt="image" src="https://github.com/user-attachments/assets/b27a86a4-1fad-4d7c-9b2a-30c7b404ad30" />  
+And finally here is the assembly. Yes, I know why the screws are pink, no, I could not fix it in a reasonable amount of time.  
+<img width="1675" height="1086" alt="image" src="https://github.com/user-attachments/assets/d7078011-daff-4b32-97a5-9dbc0698c321" />  
+## Lessons Learned  
+I did a lot over the course of the assignment. I was able to produce an entire gearbox almost from scratch. Most of the work was in the CAD portion. Some of my most important lessons were in designing the housing. For example, having to choose how to fasten the two halves together is more complicated than I thought. I had to pick which system I thought would be the best for my use case, I had to find the type of bolt I would use, I had to decide which size of standardized bolt it would be and then I had to get the dimensions for that bolt to be able to actually use it in my part. Another lesson I learned was from the bearings, there so many bearings I could choose from to use for this gearbox because of the material they are made of, the outside diameter, the inside diameters, and the length. When I was doing the designing I also came across the inside shoulder idea from looking at other bearing use cases, so I learned that preventing bearings from moving can be done this way and is important for keeping the gearbox together. I really enjoyed designing the gearbox and putting it together because it was a culmination of a lot of my soft skills that I've been picking up over the years. Overall I spent around 12 hours completing this assignment over two days.  
+##
 
 
 
