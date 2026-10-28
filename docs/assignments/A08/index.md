@@ -49,6 +49,21 @@ Then I just backed up a few steps and made the output half of the housing. The o
 I went ahead and put it all together and here is what the final product looks like.  
 <img width="1318" height="864" alt="image" src="https://github.com/user-attachments/assets/9609c073-6e95-4090-b5d4-087015c9572c" />  
 <img width="1574" height="1201" alt="image" src="https://github.com/user-attachments/assets/1f900f87-3422-4a5b-b5fa-6479e62f2669" />  
+## Drawings  
+I have extra work to do as usual so I have to make drawings on the six parts I made and the assembly.  
+Here is the input bearing.  
+<img width="1444" height="1118" alt="image" src="https://github.com/user-attachments/assets/748f3473-e263-47c4-a1c3-aac50e522c97" />  
+Here is the output bearing.  
+<img width="1439" height="1113" alt="image" src="https://github.com/user-attachments/assets/d462dc1d-3018-4214-9a65-8120ac41b9c3" />  
+Here is the input shaft.  
+<img width="1444" height="1111" alt="image" src="https://github.com/user-attachments/assets/56b892f5-3b99-4de8-9177-139b86f27092" />  
+Here is the output shaft.  
+<img width="1442" height="1112" alt="image" src="https://github.com/user-attachments/assets/043dd41b-a732-4e2b-b8f3-15b5254bc25b" />  
+Here is the input housing.  
+<img width="1283" height="992" alt="image" src="https://github.com/user-attachments/assets/35dedf62-7eb5-4233-8961-a6948e6db55b" />  
+
+
+
 
 
 
