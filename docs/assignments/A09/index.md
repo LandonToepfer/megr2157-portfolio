@@ -28,3 +28,8 @@ I then solved for the thickness with all of my other dimensions known/chosen. I 
 <img width="922" height="839" alt="image" src="https://github.com/user-attachments/assets/b0e01a11-bb8a-4feb-b8c1-20c006c5004b" />
 ## Lessons learned
 I learned about pulleys in this assignment, specifically, the forces that move through them. I haven't taken solids at this point in my education even when some of my classmates have. So moments of inertia and torques don't make that much sense to me, this assignment gave me valuable experience understanding these. I learned about the difference in the forces on either side of a pulley that is working. I didn't know there was a tight side and a loose side in a kinetic setting. I didn't know that the coefficient of friction could be used to calculate that ratio between the forces. Overall I spent around 8 hours on this assignment. It was a lot less because of the lack of CAD needed. I also did not have extra work for this assignment because of my section.  
+## Download
+<a href="../../files/assignment 9.pdf" download>  
+    Download my work PDF
+</a>   
+
