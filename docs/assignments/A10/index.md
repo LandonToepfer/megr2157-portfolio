@@ -39,6 +39,27 @@ Part of this assignment was counting the total price needed to fully assemble th
 ## Parametric Modeling - Jacob Shaver
 
 ## FEA Optimization on Crosshead - Landon Toepfer
+This assignment required us to do FEA analysis and optimization on the crosshead itself because we are both in 2157 so we have extra work. I started this by adding a 1000N load on either side where the holes for the nut are because that is were the lead screws force would be coming through. Then I added a constraint on the center hole that I added, which you would thread the tensile sample into. It wasn't apparent how the samples were being tested and there is more than one type of sample shape so I went ahead and looked up a common thread for a tensile sample. I ended on a 1/2 - 13 UNC thread which is common to have in the load cell of a tensile sampler. Moving on, I set my material of the body to 6061 aluminum. I also set my minimum element size to 10mm and went ahead with my first analysis. Here's a picture of my setup.  
+
+PICTURE 1, MODEL SETUP
+
+After the first analysis I got my maximum Stress to be 27 MPa but it was just around the rim of the center hole. The majority of the structure was experiencing at most 10 MPa. The deflection results were really good as the maximum deflection was 0.04 mm which is basically nothing. I did need to continue doing analysis on it so that my results converged. Below are my first results.  
+
+PICTURE 2, FIRST STRESS
+PICTURE 3, FIRST DEFLECTION
+
+After the second analysis with my max element size of 5mm, I got my max stress to be 31 MPa with the same location with the majority of the structure really only experiencing 10 MPa. The max deflection again was around 0.04 mm. My stress results didn't converge so I went ahead and just did it again with my element size being 3mm. Below are my second results.  
+
+PICTURE 4, SECOND STRESS
+PICTURE 5, SECOND DEFLECTION
+
+After the third test I got my max stress to be 35 MPa around the hole and still only being 10 MPa throughout the structure. The deflection max was still 0.04 mm. With these results I can move into making some conclusions to build off of. Below are the third set of results.  
+
+PICTURE 6, THIRD STRESS
+PICTURE 7, THIRD DEFLECTION
+
+So my maximum stress was located on the rim of the center hole, it was 35 MPa which gives a safety factor of 7.8. The max deflection was 0.04043 mm in the end which is acceptable. Generally speaking the crosshead was very strong but it had no rounding or chamfering and was just a big block so there was a lot of excess weight so I decided to making rounding, chamfering, and material removal my main focus of optimizing the design. I started by removing the middle on either side of the center hole. I also thinned the part in the middle. I then rounded the outer edges and the inside of the cuts made in the center. I then added a 1 mm chamfer to all of the holes. I figured this was a great optimization and went to retest my design. I ended up getting a max stress of 132 MPA which sounds bad but its just a stress concentration on the rim of the middle hole again. The hole structure only experiences around 25 MPa at max, with the most being near the center. The max deflection did increase and now is 0.0732 mm which is still a very small amount. The starting mass was 1.821 kg and it ended with 1.400 kg. This means I saved about 22% of material and barely reduced the strength of the part. It also is a highly machinable design. Overall, I would consider the process an optimization success.  
+
 
 ## Crosshead Drawing - Jacob Shaver
 
