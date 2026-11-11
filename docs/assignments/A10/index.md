@@ -64,3 +64,4 @@ So my maximum stress was located on the rim of the center hole, it was 35 MPa wh
 ## Crosshead Drawing - Jacob Shaver
 
 ## Lessons Learned - Team Thoughts
+
