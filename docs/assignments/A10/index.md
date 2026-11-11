@@ -81,7 +81,7 @@ In this assignment I think my biggest lesson learned was time management. It was
 ## Downloads
 <a href="../../files/Lead Screw Assignment.pdf" download>  
     Download our team document
-</a>    
+</a>  
 
 <a href="../../files/tensile_tester_v2.asm.zip" download>  
     Download our assembly
@@ -89,4 +89,4 @@ In this assignment I think my biggest lesson learned was time management. It was
 
 <a href="../../files/crosshead_final.drw.zip" download>  
     Download our drawing
-</a>    
+</a>  
