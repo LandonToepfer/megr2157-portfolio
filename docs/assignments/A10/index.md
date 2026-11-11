@@ -23,7 +23,18 @@ PICTURE 4, LEAD SCREW WORK PART 3
 ## Crosshead Design - Jacob Shaver
 
 ## Cost Tabulation - Landon Toepfer
-Part of this assignment was counting the total price needed to fully assemble this if need be. This including giving each type of part needed a number, a quantity, a name, a unit price, a total price spent on it, and providing a purchase link.  
+Part of this assignment was counting the total price needed to fully assemble this if need be. This including giving each type of part needed a number, a quantity, a name, a unit price, a total price spent on it, and providing a purchase link. We ended up having 8 total part types. Our combined total landed on 400.41. The crosshead itself did not have a cost because it was not going to be purchased from a supplier so the price was to be determined.  
+
+| Item Number | Quantity | Name | Unit Price | Total Price | Purchase Link |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 2 | Lead Screw | 23.67 | 47.34 | https://www.mcmaster.com/7549K72/ |
+| 2 | 2 | Flange Nut | 73.36 | 146.72 | https://www.mcmaster.com/7549K16/ |
+| 3 | 1 | Crosshead | - | - | - |
+| 4 | 8 | Socket Head Screw | 10.43 (Pack of 25) | 10.43 | https://www.mcmaster.com/91251A550/ |
+| 5 | 8 | Hex Nut | 3.60 (Pack of 50) | 3.60 | https://www.mcmaster.com/95479A111/ | 
+| 6 | 1 | Frame | 143.40 (2m Worth) | 143.40 | https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T85 |
+| 7 | 4 | Corner Bracket | 6.84 | 27.36 | https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Inside-5JRP7 |
+| 8 | 8 | Bracket Assembly Screw | 21.56 (Pack of 15) | 21.56 | https://www.grainger.com/product/80-20-Bolt-Assembly-M8-Size-5JRH6?opr=OAPD&analytics=relItems_5JRP7&position=1 | 
 
 ## Parametric Modeling - Jacob Shaver
 
