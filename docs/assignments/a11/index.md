@@ -124,7 +124,10 @@ Here is the drawing of the assembly:
 <img width="774" height="492" alt="image" src="https://github.com/user-attachments/assets/689980ab-63b2-4316-b804-ae91892df2f3" />  
 ## Lessons Learned  
 
+### Jacob
 
+### Landon  
+I learned about bearing stress and how forces get transferred through fasteners. I had to use a few equations I was unfamiliar with. One thing I think I built on was my ability to understand how standardized components fit into custom projects like this. The assignment is showing me how to combine custom parts and standard parts in order to achieve a final product that theoretically is more than capable than the assignment asks for. Overall I don't think a lot of it was new but it was challenging.  
 
 
 
