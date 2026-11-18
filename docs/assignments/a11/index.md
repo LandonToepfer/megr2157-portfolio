@@ -18,7 +18,7 @@ For this portion of the assignment, I was tasked to complete a strength analysis
 
 Bracket Component link: https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Inside-5JRP7  
 
-<img width="776" height="599" alt="image" src="https://github.com/user-attachments/assets/f210f961-e0a4-4708-96c6-895268524e4d" />    
+<img width="776" height="599" alt="image" src="https://github.com/user-attachments/assets/f210f961-e0a4-4708-96c6-895268524e4d" />  
 I used these dimensions to find all my stress values. Once I determined the values I went through and compared each to the yield strength of 172.37MPa and found a set of safety factors. My confirmation was, if all the safety factors exceeded my desired value of 4 then the bracket would hold. All of the stresses produced a very high safety factor with my lowest being 95.  
 <img width="774" height="676" alt="image" src="https://github.com/user-attachments/assets/082e88a6-691c-46a3-a7e1-ac1f24ecb6f8" />  
 ## Verification of Top Bar Through FEA - Jacob Shaver  
