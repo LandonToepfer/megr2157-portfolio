@@ -19,23 +19,41 @@ For this portion of the assignment, I was tasked to complete a strength analysis
 Bracket Component link: https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Inside-5JRP7  
 
 <img width="776" height="599" alt="image" src="https://github.com/user-attachments/assets/f210f961-e0a4-4708-96c6-895268524e4d" />  
+
 I used these dimensions to find all my stress values. Once I determined the values I went through and compared each to the yield strength of 172.37MPa and found a set of safety factors. My confirmation was, if all the safety factors exceeded my desired value of 4 then the bracket would hold. All of the stresses produced a very high safety factor with my lowest being 95.  
+
 <img width="774" height="676" alt="image" src="https://github.com/user-attachments/assets/082e88a6-691c-46a3-a7e1-ac1f24ecb6f8" />  
+
 ## Verification of Top Bar Through FEA - Jacob Shaver  
+
 Next I needed to confirm that the top of my frame would hold under the force from the leadscrews, and the torque from the motor. I did FEA through Creo PTC which had me first set up part fixtures and loads/moments. Most of this process was fine; however, when it came to implementing the torque reactions I had to get creative and turn it into a force couple because I couldn't figure out how to directly input the torque into the analysis.  
+
 <img width="624" height="510" alt="image" src="https://github.com/user-attachments/assets/9b60970a-0473-4159-a7cd-e7fca4676926" />  
+
 ### FEA Analysis 1 & 2  
+
 Once I set up the fixtures and loads, I created a mesh with an element size of 30mm to start and ran the first analysis. I moved the element size down to 20mm and ran a new static analysis, so that I could compare the results and test for convergence.  
+
 For my stress the high-end was extremely high; however, this was a singularity and wouldn't reflect what would actually happen in the real world. Instead of taking that value, I used a tool in Creo to directly analyze the stress all over the part and came up with a max stress of 8.6MPa for the 30mm element analysis and 7.6 for the other. As you can see in the picture below, essentially the entire part was dark blue which showed me I consistently was on the low-end of my stress range. Between both analyses the stress did not end up converging. I used my determined max stresses and the material of the bar to determine my safety factor. Between the two analyses the safety factor also diverged.  
+
 <img width="1088" height="484" alt="image" src="https://github.com/user-attachments/assets/8981de4e-a7e8-4a00-8d01-cba9c92c9833" />   
+
 For my displacement, my max was extremely low on both analyses, which was a good sign. The max seemed to be concentrated at the center of the bar, while the ends were almost completely unaffected. Between the two analyses the displacement did converge. This interaction can be seen below.  
+
 <img width="1093" height="486" alt="image" src="https://github.com/user-attachments/assets/117da5f1-d7bd-4ffa-931b-e26397979e55" />   
+
 ### FEA Analysis 2 & 3  
+
 Since the first two analyses did not converge, I did a third analysis with even finer elements and compared it to the second. Between the second and third analysis, the only values that converged was the safety factor. Despite that my values were still well within a desirable range for displacement and max stress.  
+
 <img width="1087" height="489" alt="image" src="https://github.com/user-attachments/assets/b1e73e76-9e7d-4795-950e-3837f62f13a9" />  
+
 <img width="1090" height="489" alt="image" src="https://github.com/user-attachments/assets/0d41a04b-a624-4368-b1fe-18fd25102d37" />  
-### Proposed Changes in the design  
+
+### Proposed Changes in the design   
+
 <img width="691" height="490" alt="image" src="https://github.com/user-attachments/assets/82eeac77-5cac-41cd-96c9-0d00fa5b05fa" />
+
 After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the ends of the beam. One change that would lower some of the weight is to remove some material in the middle of the beam where it connects to the vertical one. Otherwise I think the original design is pretty good already and sufficient for what we need it to do.  
 ## Verification of Side Bars Through FEA - Jacob Shaver  
 After running FEA on the top bar I needed to do the same for the vertical supporting bars. Because of symmetry, I knew the reactions in both vertical bars would be near-exact so I only did FEA on one. To do this I made fixtures where the bar would be held to another with a bracket, an axial compressive load on the top face, and a transverse load from the motor reactions on the top end of the vertical bar. This can be seen below.  
