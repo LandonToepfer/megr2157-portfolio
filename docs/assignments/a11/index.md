@@ -55,30 +55,47 @@ Since the first two analyses did not converge, I did a third analysis with even 
 <img width="691" height="490" alt="image" src="https://github.com/user-attachments/assets/82eeac77-5cac-41cd-96c9-0d00fa5b05fa" />
 
 After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the ends of the beam. One change that would lower some of the weight is to remove some material in the middle of the beam where it connects to the vertical one. Otherwise I think the original design is pretty good already and sufficient for what we need it to do.  
+
 ## Verification of Side Bars Through FEA - Jacob Shaver  
+
 After running FEA on the top bar I needed to do the same for the vertical supporting bars. Because of symmetry, I knew the reactions in both vertical bars would be near-exact so I only did FEA on one. To do this I made fixtures where the bar would be held to another with a bracket, an axial compressive load on the top face, and a transverse load from the motor reactions on the top end of the vertical bar. This can be seen below.  
+
  <img width="246" height="623" alt="image" src="https://github.com/user-attachments/assets/13a63674-29ac-48eb-9efa-b60dfa69fc0b" />
+ 
 ### FEA Analysis 1 & 2  
+
 After setting up the required fixed points and load points, I began the study by using a mesh of 20mm. Once I ran that study I did another with a mesh of 15mm.  
+
 Once more, the high-end for my stress was leagues higher than my yield strength; however, this was a singularity that wouldn't directly reflect the real world. This is why I did the same thing as earlier and used a tool to find my max stress on the bar. The values for analysis one ended up being 0.8113MPa for the first and 0.8077MPa for the second. These two values converged when tested. I used these and compared them to the yield strength to find the safety factors, which were extremely high and converged.   
+
 <img width="1090" height="486" alt="image" src="https://github.com/user-attachments/assets/c48dad25-2f06-4222-8ae2-79db2ccb6b9f" />  
+
 For the displacement results, the max values were very low again. The max deflection was located at the upper left corner of the beam. Even though the max values were desirable, they did not end up converging.  
+
 <img width="1090" height="489" alt="image" src="https://github.com/user-attachments/assets/c0e2f2cb-387b-4650-b2e8-d736e97483e2" />  
+
 ### FEA Analysis 2 & 3  
-Since my displacement didn't converge I ran another pass with an even finer element size of 10mm and compared it to the second analysis. Between these two analyses, the stress and the safety factor converged but the displacement still didn't. However, my values were still well within what we needed for the frame to be stable under the set conditions. 
+
+Since my displacement didn't converge I ran another pass with an even finer element size of 10mm and compared it to the second analysis. Between these two analyses, the stress and the safety factor converged but the displacement still didn't. However, my values were still well within what we needed for the frame to be stable under the set conditions.  
 <img width="1088" height="486" alt="image" src="https://github.com/user-attachments/assets/cffdf331-00a0-43f2-8d6a-11c3892d67b2" />  
 <img width="1089" height="485" alt="image" src="https://github.com/user-attachments/assets/50666fc2-e11e-4e55-8b02-049c92db79de" />  
-### Proposed Changes in the design
+### Proposed Changes in the design  
+
 <img width="689" height="642" alt="image" src="https://github.com/user-attachments/assets/fa46d973-a3e1-4fb4-be1a-354e257e7fd2" />  
+
 After analyzing the max displacement and max stress along with their locations, I think the spot to change is at the middle of the beams. One change that would lower some of the weight is to remove some material in the middle of the beam where it isn't being connected to another beam. This would greatly cut down on the weight of the beam, and as long as too much isn't removed, it shouldn't lower the safety factor too greatly. Otherwise I still believe the original design is pretty good already and sufficient for what we need it to do.  
 ## Final Assembly and Assembly Drawing - Jacob Shaver  
 
-Below is the final assembly with all designed parts, and the drawing to go along with it.
+Below is the final assembly with all designed parts, and the drawing to go along with it.  
+
 <img width="553" height="672" alt="image" src="https://github.com/user-attachments/assets/8c9b9085-8dfe-4e39-b2a4-b9f929f3eddf" />  
-## Bearing Mount - Landon Toepfer
+
+## Bearing Mount - Landon Toepfer  
 I then had to design a floating bearing mount. I started by looking at other designs of what that would look like. It seems like its a housing for a bearing. So I went and found a bearing that I could put the screw into. I also assumed that The bottom of the lead screw could be ground down to get rid of the threads. I assumed I would machine the threads off down to 8mm diameter. So that is the diameter I used to select a bearing. Then after selecting a bearing I had measurements to design a housing around it. I had to use a RC3 fit to locate the screw so I made a top entry hole with that fit class using a 8mm nominal size. I had to do some convergence between mm and inches but it wasn't a big issue. I then just made it attach to a flat plate with the same sized screw holes as the motor mount. I went ahead and made it up in CAD, downloaded the CAD file for the bearing and handed it off to Jacob to put in the assembly. Below you will see my design work.  
+
 <img width="716" height="673" alt="image" src="https://github.com/user-attachments/assets/fa01dc3d-4539-4f69-bbd5-f5fbf5b79fde" />  
-## Bill of Materials - Landon Toepfer
+
+## Bill of Materials - Landon Toepfer  
 I just have to build off the table from the last assignment.  
 
 | Item Number | Quantity | Name | Unit Price | Total Price | Purchase Link |
