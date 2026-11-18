@@ -132,16 +132,16 @@ I learned about bearing stress and how forces get transferred through fasteners.
 ## Downloads
 The part files are inside of the drawing zips
 <a href="../../files/bearing_mount.drw.zip" download>  
-    Download the bearing mount drawing
+    Download the bearing mount drawing  
 </a>  
 <a href="../../files/motor_mount.drw.zip" download>  
-    Download our motor mount drawing
+    Download our motor mount drawing  
 </a>  
 <a href="../../files/tens_test.drw.zip" download>  
-    Download our assembly drawing
+    Download our assembly drawing  
 </a>  
 <a href="../../files/tensile_test_final.asm.zip" download>  
-    Download our assembly
+    Download our assembly  
 </a>  
 
 
