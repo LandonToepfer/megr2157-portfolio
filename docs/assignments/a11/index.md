@@ -129,16 +129,18 @@ Here is the drawing of the assembly:
 ### Landon  
 I learned about bearing stress and how forces get transferred through fasteners. I had to use a few equations I was unfamiliar with. One thing I think I built on was my ability to understand how standardized components fit into custom projects like this. The assignment is showing me how to combine custom parts and standard parts in order to achieve a final product that theoretically is more than capable than the assignment asks for. Overall I don't think a lot of it was new but it was challenging.  
 ## Downloads
-<a href="../../files/Lead Screw Assignment.pdf" download>  
-    Download our team document
+The part files are inside of the drawing zips
+<a href="../../files/bearing_mount.drw.zip" download>  
+    Download the bearing mount drawing
 </a>  
-
-<a href="../../files/tensile_tester_v2.asm.zip" download>  
+<a href="../../files/motor_mount.drw.zip" download>  
+    Download our motor mount drawing
+</a>  
+<a href="../../files/tens_test.drw.zip" download>  
+    Download our assembly drawing
+</a>  
+<a href="../../files/tensile_test_final.asm.zip" download>  
     Download our assembly
-</a>  
-
-<a href="../../files/crosshead_final.drw.zip" download>  
-    Download our drawing
 </a>  
 
 
