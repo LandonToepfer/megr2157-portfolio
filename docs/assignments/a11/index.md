@@ -113,7 +113,7 @@ I just have to build off the table from the last assignment.
 | 11 | 2 | Motor | Unlisted (~80 estimated) | ~160 (allotted) | https://www.igus.com/product/drylin_E_AE_B_24_001 | 
 | 12 | 12 | Motor M3 flat head screws | 7.34 (Pack of 100) | 7.34 | https://www.mcmaster.com/91294A132/ | 
 | 13 | 2 | Bearing | 17.26 | 34.52 | https://www.mcmaster.com/1301N212/ | 
-| 14 | X | Engineering Design Cost | 35/hr | X | - | 
+| 14 | 40 | Engineering Design Cost | 35/hr | 1400 | - | 
 
 ## Drawings
 Here is the drawing of the motor mount:  
@@ -121,9 +121,7 @@ Here is the drawing of the motor mount:
 Here is the drawing of the bearing mount:  
 <img width="775" height="600" alt="image" src="https://github.com/user-attachments/assets/27d11b6d-13fc-400d-b97e-261c5bcc4b7d" />  
 Here is the drawing of the assembly:  
-
-PICTURE OF ASSEMBLY
-
+<img width="774" height="492" alt="image" src="https://github.com/user-attachments/assets/689980ab-63b2-4316-b804-ae91892df2f3" />  
 ## Lessons Learned  
 
 
