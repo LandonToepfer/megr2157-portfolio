@@ -125,6 +125,7 @@ Here is the drawing of the assembly:
 ## Lessons Learned  
 
 ### Jacob
+Throughout this I learned how to use Creo PTC to complete FEA’s. Last time Landon did the FEA portion so it was nice to learn how to do it this time around. Math-wise I don't think I learned much as it was a lot of pretty basic stress applications, and I’m already used to selecting standard parts after testing strength.  
 
 ### Landon  
 I learned about bearing stress and how forces get transferred through fasteners. I had to use a few equations I was unfamiliar with. One thing I think I built on was my ability to understand how standardized components fit into custom projects like this. The assignment is showing me how to combine custom parts and standard parts in order to achieve a final product that theoretically is more than capable than the assignment asks for. Overall I don't think a lot of it was new but it was challenging.  
