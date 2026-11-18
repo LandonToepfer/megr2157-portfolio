@@ -51,6 +51,20 @@ I just have to build off the table from the last assignment.
 | 13 | 2 | Bearing | 17.26 | 34.52 | https://www.mcmaster.com/1301N212/ | 
 | 14 | X | Engineering Design Cost | 35/hr | X | - | 
 
+## Drawings
+Here is the drawing of the motor mount:  
+
+PICTURE OF MOUNT
+
+Here is the drawing of the bearing mount:  
+
+PICTURE OF MOUNT
+
+Here is the drawing of the assembly:  
+
+PICTURE OF ASSEMBLY
+
+## Lessons Learned  
 
 
 
