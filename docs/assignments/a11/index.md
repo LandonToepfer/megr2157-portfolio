@@ -33,3 +33,28 @@ PICURE X - BEARING MOUNT DESIGN WORK
 
 ## Bill of Materials - Landon Toepfer
 I just have to build off the table from the last assignment.  
+
+| Item Number | Quantity | Name | Unit Price | Total Price | Purchase Link |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 2 | Lead Screw | 23.67 | 47.34 | https://www.mcmaster.com/7549K72/ |
+| 2 | 2 | Flange Nut | 73.36 | 146.72 | https://www.mcmaster.com/7549K16/ |
+| 3 | 1 | Crosshead | - | - | - |
+| 4 | 8 | Socket Head Screw | 10.43 (Pack of 25) | 10.43 | https://www.mcmaster.com/91251A550/ |
+| 5 | 8 | Hex Nut | 3.60 (Pack of 50) | 3.60 | https://www.mcmaster.com/95479A111/ | 
+| 6 | 1 | Frame | 143.40 (2m Worth) | 143.40 | https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T85 |
+| 7 | 8 | Corner Bracket | 6.84 | 64.72 | https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Inside-5JRP7 |
+| 8 | 32 | Bracket Assembly Screw | 21.56 (Pack of 15) | 64.68 | https://www.grainger.com/product/80-20-Bolt-Assembly-M8-Size-5JRH6?opr=OAPD&analytics=relItems_5JRP7&position=1 | 
+| 9 | 2 | Motor Mount | - | - | - | 
+| 10 | 2 | Bearing Mount | - | - | - | 
+| 11 | 2 | Motor | Unlisted (~80 estimated) | ~160 (allotted) | https://www.igus.com/product/drylin_E_AE_B_24_001 | 
+| 12 | 12 | Motor M3 flat head screws | 7.34 (Pack of 100) | 7.34 | https://www.mcmaster.com/91294A132/ | 
+| 13 | 2 | Bearing | 17.26 | 34.52 | https://www.mcmaster.com/1301N212/ | 
+| 14 | X | Engineering Design Cost | 35/hr | X | - | 
+
+
+
+
+
+
+
+
